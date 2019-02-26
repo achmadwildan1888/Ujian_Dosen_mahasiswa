@@ -45,6 +45,8 @@ for data in mahasiswa:
 
 df = pd.DataFrame(a)
 df2 = pd.DataFrame(b)
+print(df)
+print(df2)
 
 plt.bar(df['nama'],df['usia'])
 plt.bar(df2['nama'],df2['usia'])
